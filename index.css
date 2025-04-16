@@ -1,0 +1,95 @@
+body{ 
+font-family: Arial, sans-serif;
+background-color: aliceblue;
+
+margin:0;
+padding: 20px;
+line-height: 1.6;
+}
+
+h1 {
+color:seagreen;
+text-align: center;
+margin-bottom: 30px;
+}
+
+p{
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+ul.hobbies {
+    line-height: 2;
+    margin-bottom: 20px;
+}
+
+.hobby-img{
+    border-radius: 15px;
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+table { 
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+tabel, th, td {
+    border: 1px solid #add;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: seagreen;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+.pais-img {
+    height: 100px;
+    height:auto;
+    border-radius: 5px;
+}
+
+a {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: limegreen;
+}
+
+#botaoClick {
+    background-color: seagreen;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+button:hover {
+    background-color: mediumseagreen;
+
+}
+
+#textoMensagem {
+   font-size: 18px;
+   color: darkblue;
+   margin-top: 10 px;
+}
+
